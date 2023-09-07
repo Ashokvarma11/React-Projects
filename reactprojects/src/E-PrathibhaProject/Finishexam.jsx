@@ -40,7 +40,7 @@ function Finishexam(props) {
                 <h1>{data}</h1>
                 <p>your score is:{props.data.score}</p>
 
-                <button onClick={handleExams}>Go to exams</button>
+                <button className="btn btn-primary" onClick={handleExams}>Go to exams</button>
             </div>
         </>
     )
